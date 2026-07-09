@@ -7,7 +7,7 @@ vim.o.tabstop = 8
 vim.o.signcolumn = "yes"
 vim.o.winborder = "rounded"
 
-local servers = { "clangd", "lua_ls", "tinymist", "pyright", "gopls" }
+local servers = { "clangd", "lua_ls", "tinymist", "pylsp", "gopls" }
 
 vim.pack.add({
 	{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
